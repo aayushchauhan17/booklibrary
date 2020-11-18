@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 400vh;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(40deg, #081f79, #0b8fa2, #00d4ff);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.navigation {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.navleft {
+    text-decoration: none;
+    width: 45%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Jolly Lodger', cursive;
+}
+
+#logoname {
+    padding-left: 80px;
+}
+
+.navright {
+    width: 55%;
+}
+
+.navright ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navright li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Jolly Lodger', cursive;
+}
+
+.navright li:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient( #03235e, #3097f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navright #search {
+    width: 30px;
+    display: flex;
+    margin-right: 127px;
+}
+
+.inputtext {
+    width: 130px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 0px;
+    text-decoration: none;
+    opacity: 0.8;
+    position: relative;
+    top: 3px;
+}
+
+.navright .search {
+    width: 33px;
+    margin: 5px;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+}
+
+.image .logoimg {
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.image #logoimg {
+    width: 874px;
+    height: 821px;
+}
+
+.image img {
+    width: 500px;
+    height: 400px;
+}
+
+.login {
+    width: 40%;
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.btnlogin {
+    margin: 30px 105px;
+}
+
+.login h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+.btn {
+    border-radius: 8px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 25px;
+    border: 0px;
+    background: linear-gradient(40deg, #1d4eaa, #1bc0da, #04d5ff);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: linear-gradient(220deg, #1d4eaa, #1bc0da, #04d5ff);
+}
+
+#login {
+    padding: 8px 27px;
+    margin: 0px 5px;
+}
+
+#signup {
+    padding: 8px 21px;
+    margin: 0px 5px;
+}
+
+.genres {
+    border-top: 2px solid white;
+    position: relative;
+    top: 80px;
+    background: linear-gradient(27deg, rgb(63, 187, 236), rgb(198, 228, 240), rgb(255, 255, 255));
+}
+
+.genres h2 {
+    margin-top: 25px;
+    margin-left: 58px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+.genresheader {
+    display: flex;
+}
+
+.genresheader button {
+    position: absolute;
+    right: 100px;
+    margin-top: 45px;
+    background: transparent;
+    border: 0px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 20px;
+}
+
+.genresheader button:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient( #03235e, #3097f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gen {
+    border: 2px solid black;
+    /* box-shadow: -7px 7px 10px grey; */
+    width: 200px;
+    height: 300px;
+    margin: 0px 20px;
+    overflow: hidden;
+    background: linear-gradient(40deg, #215ecf, #39b7ca, #87e7fa);
+}
+
+#gen .image {
+    position: relative;
+    left: -2px;
+    height: 260px;
+    width: 197px;
+}
+
+#gen {
+    display: inline-flex;
+    overflow: hidden;
+    margin: 25px 37px;
+}
+
+.end {
+    height: 250px;
+    position: relative;
+    top: 170px;
+    background: linear-gradient(40deg, #081f79, #0b8fa2, #00d4ff);
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.end p {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    font-family: consolas;
+}
+
+
+/* #social {}
+
+#social:hover {
+    font-size: 2.5rem;
+} */
+
+#social1 {
+    font-size: 2rem;
+    width: 70px;
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    left: 41.8%;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+#social1:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+#social2 {
+    font-size: 2rem;
+    width: 70px;
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    left: 41.8%;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+#social2:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+#social3 {
+    font-size: 2rem;
+    width: 70px;
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    left: 41.8%;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+#social3:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+#social4 {
+    font-size: 2rem;
+    width: 70px;
+    transition: 0.5s;
+    position: relative;
+    top: 150px;
+    left: 41.8%;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+}
+
+#social4:hover {
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+
+/* box    */
+
+.genres .gen .contant {
+    transition: 0.5s;
+    transform: translateY(0px);
+    font-family: consolas;
+}
+
+.genres .gen:hover .contant {
+    cursor: pointer;
+    transform: translateY(-45px);
+    background-color: lightblue;
+    opacity: 0.9;
+}
+
+.gen button {
+    background: linear-gradient(40deg, #1d4eaa, #1bc0da, #04d5ff);
+    /* background: transparent; */
+    /* text-decoration: none; */
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+    left: 44px;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 20px;
+}
+
+
+/* rating star */
+
+#star {
+    width: 10px;
+}
+
+.checked {
+    color: orange;
+}
